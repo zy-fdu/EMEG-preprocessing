@@ -36,15 +36,25 @@ The preprocessed data will be organized by the program as:
 update history:
 
     (02 Feb, 2023, v 1.0.0, by Yi Zhang) A primary version used for MILOS object task pre-processing.
+    
     (12 Feb, 2023, v 1.1.0, by Yi Zhang) MRIpostprep.py file created, for registering timeseries to standard space.
+    
     (14 Feb, 2023, v 2.0.0, by Yi Zhang) A modified version used for both resting and task data pre-processing. Some folder naming rules were changed.
+    
     (23 Feb, 2023, v 2.0.1, by Yi Zhang) Add a separate file for defining parameters (folder names, etc).
+    
     (24 Feb, 2023, v 2.0.2, by Yi Zhang) Lower the resolution(voxel 3mm -> 4mm, surface ico5 -> oct6 (3.1mm -> 4.9m)), and separate timeseries to several files.
+    
     (09 Sep, 2023, v 2.1.0, by Yi Zhang) Allowing skip certain steps in the pre-processing. Capable of extracting ROI-based time series. Allowing the case where EOG/ECG channel is missing.
+    
     (11 Sep, 2023, v 2.1.1, by Yi Zhang) Revise some minor problems in the script.
+    
     (25 Sep, 2023, v 2.2.0, by Yi Zhang) Allowing adding empty room projectors.
+    
     (10 Oct, 2023, v 2.2.1, by Yi Zhang) Repair minor mistakes.
+    
     (16 Oct, 2023, v 2.3.0, by Yi Zhang) Allow SSP denoise.
+    
     (9 Nov, 2023, v 2.4.0, by Yi Zhang) Allow only output surface/volume data, and modify some of the parameters. Temporarily delete all logics related to indicator files.
 
 TODO:
