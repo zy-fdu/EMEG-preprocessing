@@ -11,19 +11,18 @@ NOTE: Do remember to edit the event_trig() function to define the event onsets.
 If you are dealing with resting-state, please do include "rs" in the task_name.
 
 the input data should be organized as:
+
                                 |---/MRI/Freesurfer preprocessed MRI files
              |---'subject 1'--- |---/MEG/task_name/raw_file_name in fif format
-
                                 |---/MRI/Freesurfer preprocessed MRI files
              |---'subject 2'--- |---/MEG/task_name/raw_file_name in fif format
-
                                 |---/MRI/Freesurfer preprocessed MRI files
 'proj_dir'-- |---'.........'--- |---/MEG/task_name/raw_file_name in fif format
-
                                 |---/MRI/Freesurfer preprocessed MRI files
              |---'subject n'--- |---/MEG/task_name/raw_file_name in fif format
 
 The preprocessed data will be organized by the program as:
+
                              |---/01_head_motion/   file created by head_motion() function
                              |---/02_filter/        file created by filt() function
                              |---/03_ICA_denoise/   ICA denoised files
